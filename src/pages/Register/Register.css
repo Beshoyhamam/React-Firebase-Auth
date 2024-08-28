@@ -1,0 +1,71 @@
+.register {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.register .box-form {
+    box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+    width: 90%;
+    max-width: 500px;
+    min-height: 500px;
+    padding: 25px 20px;
+    border-radius: 20px;
+}
+
+.register .box-form .head {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.register .box-form .image,
+.register .box-form .username,
+.register .box-form .email,
+.register .box-form .password {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+.register .box-form .image input,
+.register .box-form .username input,
+.register .box-form .email input,
+.register .box-form .password input {
+    padding: 13px;
+    outline: none;
+    border: none;
+    background-color: #edeffd;
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+.register .box-form .submit {
+    margin: 30px 0;
+}
+
+.register .box-form .submit button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(68, 68, 255);
+    color: #FFF;
+    cursor: pointer;
+}
+
+.register .box-form .continue {
+    text-align: center;
+    margin-bottom: 25px;
+
+    a {
+        text-decoration: underline;
+    }
+}

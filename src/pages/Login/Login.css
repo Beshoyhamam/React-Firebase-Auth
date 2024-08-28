@@ -1,0 +1,102 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .box-form {
+    box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+    width: 90%;
+    max-width: 500px;
+    min-height: 500px;
+    padding: 25px 20px;
+    border-radius: 20px;
+}
+
+.login .box-form .head {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.login .box-form .email,
+.login .box-form .password {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+.login .box-form .email input,
+.login .box-form .password input {
+    padding: 13px;
+    outline: none;
+    border: none;
+    background-color: #edeffd;
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+.login .box-form .submit {
+    margin: 30px 0;
+}
+
+.login .box-form .submit button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(68, 68, 255);
+    color: #FFF;
+    cursor: pointer;
+}
+
+.login .box-form .new-account {
+    text-align: center;
+    margin-bottom: 25px;
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+.login .box-form .line-or {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.499);
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.login .box-form .line-or::before {
+    content: "OR";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.login .box-form .login-google button {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login .box-form .login-google button svg {
+    width: 25px;
+}
