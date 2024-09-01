@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA4c3gZRXeDPOJyCzr-D1NirdxjZ17sYD4",
-    authDomain: "crud-389ab.firebaseapp.com",
-    projectId: "crud-389ab",
-    storageBucket: "crud-389ab.appspot.com",
-    messagingSenderId: "18740575998",
-    appId: "1:18740575998:web:875748fc0921b361726faf"
+    apiKey: "AIzaSyCjClhiPMjgwqXx9B5TfSGSRRbdKoXHH38",
+    authDomain: "auth-firebase-react-f6ff1.firebaseapp.com",
+    projectId: "auth-firebase-react-f6ff1",
+    storageBucket: "auth-firebase-react-f6ff1.appspot.com",
+    messagingSenderId: "775641764316",
+    appId: "1:775641764316:web:4efc056c88d3dcf7d9bf19"
 };
 
 const app = initializeApp(firebaseConfig);

@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "crud-389ab"
-  }
+    "default": "auth-firebase-react-f6ff1",
+    "auth-firebase-react": "auth-firebase-react-f6ff1"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
